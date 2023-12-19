@@ -1,0 +1,27 @@
+{
+  "name": "story_dclick_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc --build",
+    "start": "npx tsc --build | node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blue-Brain/Story_DClick_Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blue-Brain/Story_DClick_Bot/issues"
+  },
+  "homepage": "https://github.com/Blue-Brain/Story_DClick_Bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.1",
+    "typescript": "^5.3.3"
+  }
+}
