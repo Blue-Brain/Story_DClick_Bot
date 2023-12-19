@@ -1,8 +1,8 @@
-import { runStart } from './action/start';
-import bot from './common/telegram';
+import { initMenu } from './common/telegram';
+import runListeners from './listeners';
 
-bot.on('text', async msg => {
-  await runStart(msg.chat.id);
-  
-  console.log(msg);
-});
+// Menu
+initMenu();
+
+// Listeners
+runListeners();
